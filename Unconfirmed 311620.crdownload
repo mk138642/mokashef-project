@@ -1,0 +1,12 @@
+document.getElementById('login-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+
+    // Here you can validate the username and password or send it to the server
+    // for authentication. For simplicity, this example will just log the values.
+
+    console.log('Username:', username);
+    console.log('Password:', password);
+});
